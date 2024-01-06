@@ -13,7 +13,7 @@ router.post(
     upload.array("pdfFiles", 2),
     async function (req, res) {
   
-      const files: { [fieldname: string]: Express.Multer.File[]; } | Express.Multer.File[] = req.files;
+      const files: { [fieldname: string]: Express.Multer.File[]; } | Express.Multer.File[] | undefined = req.files;
   
       const pdfFiles = files;
   
