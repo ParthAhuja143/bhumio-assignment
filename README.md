@@ -13,6 +13,14 @@ $ git clone https://github.com/ParthAhuja143/bhumio-assignment.git
 $ cd bhumio-assignment
 ```
 
+## Docker
+
+The app can be run through docker as well.
+
+```
+docker compose up
+```
+
 ## Install dependencies
 
 You'll need to download some node modules defined into `package.json` file.
